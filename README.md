@@ -1,13 +1,12 @@
-##Flower Species Classification Project
-##Overview.
+# Flower Species Classification Project Overview:
 This project implements a deep learning model for classifying 104 different flower species using transfer learning and advanced data augmentation techniques.![image]
 
-Project Structure
+## Project Structure
 (https://github.com/user-attachments/assets/50f072c0-793f-4252-813a-104083185200)
 
 
-Prerequisites
-Software Requirements
+## Prerequisites
+### Software Requirements
 
 Python 3.8+
 TensorFlow 2.x
@@ -17,13 +16,13 @@ Pandas
 Matplotlib
 scikit-learn
 
-Hardware Recommendations
+### Hardware Recommendations
 
 GPU or TPU for faster training
 Minimum 16GB RAM
 At least 50GB free disk space for dataset and models
 
-Installation
+## Installation
 
 Clone the Repository
 git clone https://github.com/Anushttha/MachineLearning.git
@@ -38,7 +37,7 @@ Install Dependencies
 
 pip install -r requirements.txt
 
-Dataset Preparation
+## Dataset Preparation
 Data Format
 
 Uses TFRecord format
@@ -46,17 +45,17 @@ Image size: 192x192 pixels
 104 different flower species
 Splits: Training, Validation, Test
 
-Data Augmentation Techniques
+## Data Augmentation Techniques
 
 Random horizontal flips
 Random rotations (±15 degrees)
 Random shear transformations
 Dynamic zoom and shift
 
-Model Architecture
+## Model Architecture
 Transfer Learning
 
-Base Models:
+## Base Models:
 
 DenseNet201
 VGG16
@@ -65,7 +64,7 @@ VGG16
 Pre-trained on ImageNet weights
 Custom classification head
 
-Training Strategy
+## Training Strategy
 
 10-fold cross-validation
 Adaptive learning rate scheduling
