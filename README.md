@@ -1,5 +1,5 @@
-Flower Species Classification Project
-Overview
+##Flower Species Classification Project
+##Overview.
 This project implements a deep learning model for classifying 104 different flower species using transfer learning and advanced data augmentation techniques.![image]
 
 Project Structure
